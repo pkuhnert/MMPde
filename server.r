@@ -2,7 +2,6 @@ library(shiny)
 library(leaflet)
 library(ggplot2)
 
-source("includeRmd.r")
 
 
 server <- function(input, output){
