@@ -1,0 +1,47 @@
+---
+title: "Background"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+### Marine Monitoring Program Re-Design Assessment
+
+This App is supplementary to the paper by Lloyd-Jones et al. (2021),
+which outlines an assessment of the Marine Monitoring Program (MMP) and it's redesign
+back in 2015.
+
+
+### Brief Overview of the Marine Monitoring Program (MMP) Review
+
+In 2015, the Great Barrier Reef Marine Park Authority (GBRMPA) commissioned a review of the Great Barrier Reef (GBR) Marine Monitoring Program (MMP). The review is captured in Kuhnert et al. (2015) and recommends a more comprehensive sampling design, focusing on improvements in the spatial representativeness of samples collected to improve delivery to the MMP water quality monitoring objectives. 
+
+Changes to the survey design were initiated in February 2015 by GBRMPA, in collaboration with research partners.  The re-design focussed on including additional monitoring sites and higher frequency of sampling at these sites.
+
+This current work evaluates the changes made to the MMP and specifically, whether the re-design led to an increase in statistical power to detect trends in insore ambient water quality.  The methodology adopts a bootstrap approach to assess the power to detect trends in six priority physical, chemical and biological water quality analytes measured at four Natural Resource Management (NRM) regions in the two time frames: pre-review (2005-2014) and post review (2015-2019).
+
+### Key Results
+
+- The sampling re-design increased power to detect trends in 23 of the 24 analyte-NRM study area combinations.
+- An average increase in power of 34% for a given 10% fractional change on a per annum basis.
+
+### What is Presented in the App
+
+The app gives the user the freedom to view the outputs from the power analysis described in Lloyd-Jones et al. (2021) in a number of different formats depending on what they are requiring.  Users can view the outputs for each constituent and catchment individually or alternatively, they can perform a comparison by region or across regions.  This approach to viewing the results can be quite powerful as the user is not restricted to the format of the paper but can structure the outputs in a way that makes sense to them.
+
+Specific tabs in the app are outlined below.  Further information relating to the specific figures that are shown are available in the `Figure Description` tab.
+
+
+### References
+
+Lloyd-Jones, L., Kuhnert, P.M., Lawrence, E., Lewis, S., Waterhouse, J. et al. (2021) Sampling re-design increases power to detect change in the Great Barrier Reef’s inshore water quality. Ecological Applications, Submitted.
+
+Kuhnert, P.M., Liu, Y., Henderson, B., Dambacher, J., Lawrence, E. and Kroon, F. (2015) Review of the Marine Monitoring Program (MMP), CSIRO Report, [Online Version.](https://elibrary.gbrmpa.gov.au/jspui/handle/11017/2929) 
+
+
+
