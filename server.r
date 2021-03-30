@@ -2,7 +2,7 @@ library(shiny)
 library(leaflet)
 library(ggplot2)
 
-
+source("includeRmd.r")
 
 server <- function(input, output){
   
@@ -406,19 +406,19 @@ server <- function(input, output){
   #--------------------- Documentation ----------------------------------------#
     
     output$userguide <- renderUI({
-      inclRmd("./docs/userguide.Rmd")
+      inclRmd("./userguide.Rmd")
     })
 
     output$ack <- renderUI({
-      inclRmd("./docs/ack.Rmd")
+      inclRmd("./ack.Rmd")
     })
     
     output$wqparms <- renderUI({
-      inclRmd("./docs/WQdesc.Rmd")
+      inclRmd("./WQdesc.Rmd")
     })
     
     output$figdesc <- renderUI({
-      inclRmd("./docs/FigureDesc.Rmd")
+      inclRmd("./FigureDesc.Rmd")
     })
     
 
