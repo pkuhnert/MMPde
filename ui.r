@@ -46,6 +46,10 @@ ui  <- fluidPage(
                         
                         tabPanel("Individual Constituents",
                                  fluidRow(
+                                   h4("Please select a region by clicking on a location on the Map tab."),
+                                   h4("Then select a water quality (WQ) constituent and a Plot Type."),
+                                   h5("(Information on plot types is located in the tabs above the map.)"),
+                                   
                                    column(4, selectInput("ind_const", "WQ Constituent:", 
                                                          choices = c("Chl-a", "NOx", "PN", "PP", "Secchi", "TSS"))),
                                    column(4, selectInput("ind_plot_type1", "Plot Type:", 
@@ -58,9 +62,10 @@ ui  <- fluidPage(
                )
            ),
            tabPanel("Constituent Comparison (by Region)",
-              #      h3("Text here"),
-              #      p("Description here of what we are seeing.\n"),
                         fluidRow(
+                          h4("Please select a region by clicking on a location on the Map tab."),
+                          h4("Then select a Plot Type and one or more constituents."),
+                          h5("(Information on plot types is located in the tabs above the map.)"),
                     column(4, selectInput("ind_plot_type2", "Plot Type:", 
                                           choices = c("Power Curves", "Comparison (Pre/Post)", "Comparison (Sites/Samples)"))),
                     column(4, checkboxGroupInput("constituent", "Constituents:",
@@ -79,6 +84,9 @@ ui  <- fluidPage(
                     )),
            tabPanel("Constituent Comparison (across Regions)",
                     fluidRow(
+                      h4("Please select a Plot Type, one or more NRM regions and WQ constituents."),
+                      h5("(Information on plot types is located in the tabs above the map.)"),
+
                       column(4, selectInput("ind_plot_type3", "Plot Type:", 
                                             choices = c("Power Curves", "Comparison (Pre/Post)", "Comparison (Sites/Samples)"))),
                       column(4, checkboxGroupInput("NRM_region2", "NRM Region:", 

@@ -36,19 +36,28 @@ server <- function(input, output){
   
   # adding to it after selection
   observeEvent(input$NRM_region2, {
-    
+
     id <- match(input$NRM_region2, nrm_df$region)
     loc_on <- nrm_df[id,]
     loc_off <- nrm_df[-id,]
     
+    if(nrow(loc_off) == 0){
+      leafletProxy("map") %>%
+        addCircleMarkers(data = loc_on, lng = ~long, lat = ~lat,radius = 5, 
+                         color = "red", fillOpacity = 1, label = ~region, 
+                         layerId = ~region)
+    }
+    else{
+      leafletProxy("map") %>%
+        addCircleMarkers(data = loc_on, lng = ~long, lat = ~lat,radius = 5, 
+                         color = "red", fillOpacity = 1, label = ~region, 
+                         layerId = ~region) %>%
+        addCircleMarkers(data = loc_off, lng = ~long, lat = ~lat,radius = 5, 
+                         color = "orange", fillOpacity = 1, label = ~region, 
+                         layerId = ~region) 
+    }
 
-    leafletProxy("map") %>%
-      addCircleMarkers(data = loc_on, lng = ~long, lat = ~lat,radius = 5, 
-                       color = "red", fillOpacity = 1, label = ~region, 
-                       layerId = ~region) %>%
-      addCircleMarkers(data = loc_off, lng = ~long, lat = ~lat,radius = 5, 
-                     color = "orange", fillOpacity = 1, label = ~region, 
-                     layerId = ~region) 
+    
     
   })
   
@@ -91,8 +100,8 @@ server <- function(input, output){
   
   # checkbox - constituent (tab 3)
   cb_const_tab3 <- eventReactive(input$constituent2, {
-    
-    c_check <- list(input$constituent2)
+ 
+    c_check <- as.list(input$constituent2)
     if (is.null(c_check)){return()}
     
     
@@ -102,7 +111,7 @@ server <- function(input, output){
   # checkbox - NRM region
   cb_nrm_tab3 <- eventReactive(input$NRM_region2, {
     
-    c_check <- list(input$NRM_region2)
+    c_check <- as.list(input$NRM_region2)
     if (is.null(c_check)){return()}
     
     
@@ -336,7 +345,7 @@ server <- function(input, output){
     
     output$table2 <- DT::renderDataTable({
       
-      
+
       cb_const_tab3()
       cb_nrm_tab3()
       
@@ -360,11 +369,11 @@ server <- function(input, output){
                   if(x == "tss")
                     chunk <- "_TSS.png"
                   
-                  browser()
+                 
                  chunk
       })
       imgfr2 <- sapply(input$NRM_region2, function(x, chunk){
-        
+
         if(input$ind_plot_type3 == "Comparison (Pre/Post)")
                     prefix <- "all_regions_global_power_at_pt1_pre_vs_post_two_way_"
                   else if(input$ind_plot_type3 == "Power Curves")
@@ -378,7 +387,7 @@ server <- function(input, output){
       }, imgfr1)
       
       len <- length(imgfr2)
-      
+
       if(((len/2) %% 1) != 0)
         dat <- data.frame(matrix(c(imgfr2, ""), byrow = TRUE, ncol = 2, nrow = ceiling(length(imgfr2)/2)))
       else
@@ -394,10 +403,10 @@ server <- function(input, output){
         )
       }
       )
-
-      dat_img <- t(dat_img)
+     
+      dat_img <- data.frame(t(dat_img))
       names(dat_img) <- ""
-      
+    
       DT::datatable(dat_img, escape = FALSE, rownames = NULL, colnames = '')
     })
     
