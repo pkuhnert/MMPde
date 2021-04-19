@@ -1,7 +1,7 @@
 ---
 output: rmarkdown::github_document
 ---
-# MMPdesignE
+# MMPde
 
 ## Marine Monitoring Program Design Evaluation
 
@@ -10,8 +10,6 @@ output: rmarkdown::github_document
 <!-- badges: end -->
 
  
-`MMPde` pkgdown site: https://pkuhnert.github.io/MMPde/
-
 ## About the MMPde Package
 
 This application provides interactive supplementary material to the
@@ -22,8 +20,9 @@ resulted in increased power to detect change for key constituents in the MMP.
 
 ## Installation
 
-You run the app by typing in the following into the
-command line within R:
+Follow the instructions below to install the `MMPde` package and access the app within R. This
+app will be hosted eventually on the CSIRO shiny server. We will update this page when the
+app becomes available.
 
 ```
 #install.packages("devtools")

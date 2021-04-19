@@ -1,5 +1,5 @@
 
-# MMPdesignE
+# MMPde
 
 ## Marine Monitoring Program Design Evaluation
 
@@ -7,8 +7,6 @@
 
 [![R-CMD-check](https://github.com/pkuhnert/MMPde/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPde/actions)
 <!-- badges: end -->
-
-`MMPde` pkgdown site: <https://pkuhnert.github.io/MMPde/>
 
 ## About the MMPde Package
 
@@ -20,8 +18,9 @@ constituents in the MMP.
 
 ## Installation
 
-You run the app by typing in the following into the command line within
-R:
+Follow the instructions below to install the `MMPde` package and access
+the app within R. This app will be hosted eventually on the CSIRO shiny
+server. We will update this page when the app becomes available.
 
     #install.packages("devtools")
     devtools::install_github("pkuhnert/MMPde")
