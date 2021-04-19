@@ -3,6 +3,14 @@ title: "MMPde"
 output: html_document
 ---
 
+<!-- badges: start -->
+  [![R-CMD-check](https://github.com/pkuhnert/MMPdesignE/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPdesignE/actions)
+  <!-- badges: end -->
+  
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/pkuhnert/MMPdesignE/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPdesignE/actions)
+  <!-- badges: end -->  
+
 ## Marine Monitoring Program Design Evaluation 
 
 This application provides interactive supplementary material to the
