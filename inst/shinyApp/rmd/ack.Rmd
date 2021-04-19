@@ -8,13 +8,14 @@ output: html_document
 For all enquires regarding this Shiny App, please contact:
 Petra Kuhnert (Petra.Kuhnert@data61.csiro.au)
 
-Contributions to the app and manuscript include:
+Contributions to the app and/or manuscript include:
 
 #### CSIRO
 
 * Luke Lloyd-Jones: Luke.Lloyd-Jones@data61.csiro.au
 * Petra M. Kuhnert: Petra.Kuhnert@data61.csiro.au
 * Emma Lawrence: Emma.Lawrence@data61.csiro.au
+* Sam Nelson: Sam.Nelson@data61.csiro.au
 
 #### Australian Institute of Marine Science (AIMS)
 
