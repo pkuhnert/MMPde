@@ -1,0 +1,48 @@
+---
+title: "Figure Descriptions"
+output: html_document
+---
+
+### Power Curves
+  
+* The power to detect a fractional year-on-year linear change (increase or decline) to examine the effectiveness of the post-2015 
+    sampling design with the pre-2015 sampling design. The pre-2015 samples were broken up into three time series components.  
+    - *pre-2015 S1*: The period between 18/09/2005 to 30/12/2009 (blue curve)
+    - *pre-2015 S2*: The period between 15/06/2010 to 01/01/2015 (green curve)
+    - *pre-2015 S3*: The period between 01/02/2008 to 09/05/2012 (purple curve)
+* The number of samples represented in each pre/post dataset is approximately 1,550 to allow valid comparison between sampling 
+    regimes.
+* The y-axis represents the power (as a proportion) to detect a change.
+* The x-axis represents the linear change used to determine power.  The linear change is represented as a fractional year-on-year 
+    change corresponding to samples taken from similar periods pre and post-2015.
+  
+### Comparison (pre/post)
+
+To facilitate more broader understanding about whether the power to detect change increased under the new sampling regime, the information presented in the power curves could be further simplified to explore the power at the 0.1 fractional change. The value of 0.1 was a hypothetical scenario summarising a forward projection where the current ecological state is likely to move into a new stage on average within the next 5 years.  For more information, see Lloyd-Jones et al. (2021).  This information is presented as a barplot showing the power to detect a 0.1 fractional year-on-year linear change pre-2015 (red bar) and post-2015 (blue bar).
+
+### Comparison (sites/samples)
+
+To assist in understanding what components of the design contributed to a potential improvement in power, a power analysis was conducted to explore the impact of adding samples and/or sites to the design.  The scenarios investigated consisted of:
+* Null: post-2015 data that was down sampled to reflect the number of samples and sampling density appearing in the pre-2015 data (red)
+* Null + Sites: retain the same within year sampling frequency but add in the extra sites for each area to the post-2015 data (blue)
+* Null + Samples: retain the pre-2015 sites but increase the sampling density to the post-2015 data (green)
+* Current Sampling: all data after 01/01/2015 (purple).
+
+The height of each bar is the average of the two power values corresponding to the 10th and 90th percentile as can be seen on the individual power curves.
+
+### Monitoring Data
+
+These figures show the monitoring data used in the power analysis for each constituent as captured from the Australian Institute of Marine Science (AIMS) and James Cook University (JCU).  Each catchment shows samples taken from up to 6 sites over the monitoring time frame of 2005-2019.
+
+### Time to Exceedance
+
+To explore some futuristic scenarios, plots showing the time to exceedance of the 10th and 90th percentile were produced for each constituent.  Exceedance figures are shown for each sampling location shown for each catchment.  The red solid line in each figure represents the water quality guideline value, which is specific for each analyte and NRM region. The red dotted lines correspond to the 10th and 90th percentile of the data captured 5 years post-2015 (grey dots). The grey shaded region in between the green curve (increasing 10% fractional year-on-year change) and orange curve (decreasing 10% fractional year-on-year change) shows where we expect trends of less than 0.1 fractional change.
+
+
+
+
+
+
+
+
+

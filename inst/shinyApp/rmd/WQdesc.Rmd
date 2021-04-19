@@ -1,0 +1,24 @@
+---
+title: "Water Quality Parameters"
+output: html_document
+---
+
+## Description of the WQ parameters
+
+In this study, we focus on the following six physical, chemical and biological water quality parameters measured on grab samples by the MMP WQ.
+
+**Total suspended solids (TSS)** in milligrams per litre (mg/L). TSS is a water clarity indicator and represents solids that are not in true solution and that can be removed by filtration. Such suspended solids usually contribute directly to turbidity. Defined in waste management, these are small particles of solid pollutants that resist separation by conventional methods (www.usgs.gov).
+
+**Secchi depth (Secchi)** in metres (m). Secchi depth measures turbidity and is another is a water clarity indicator. Turbidity is the amount of solid particles that are suspended in water and that cause light rays shining through the water to scatter. Thus, turbidity makes the water cloudy or even opaque in extreme cases. Turbidity is measured in nephelometric turbidity units (NTU) (www.usgs.gov). Turbidity is affected by a wide range of factors including oceanographic processes such as resuspension of bottom sediments by wind, waves and currents; river discharge; and anthropogenic factors such as dredging and increased land-based run-off.
+
+**Particulate nitrogen (PN)** in micromoles/L (µmol/L) and Particulate phosphorus (PP) in (µmol/L). Particulate nutrients (PN and PP) are a measure of the suspended material retained on a filter with a pore size of approximately 0.7 µm. This material consists of a minor fraction of living biomass (e.g., bacteria, phytoplankton) and a major fraction of detritus (e.g., dead cells, faecal pellets). Particulate nutrient concentrations are affected by oceanographic processes (primary production, bacterial production, resuspension, and remineralisation) as well as sources such as dredging and land-based run-off.
+
+**Nitrogen oxide (NOx)** in (µmol/L). Dissolved inorganic nitrogen (NH3, NOX) measure the amount of readily available nitrogen for plankton growth in water samples. Inorganic nitrogen (NH3, NOx) represents around 1% of the nutrient pools in the Reef. The inorganic nitrogen pools are affected by a complex range of biogeochemical processes including both natural (e.g. plankton uptake, upwelling, nitrogen fixation, and remineralisation) and anthropogenic (e.g. dredging and nutrient inputs from changed land use) processes.
+
+**Chlorophyll A (Chl-a)** in micrograms/L (µg/L). Chlorophyll a (Chl-a) concentration is a measure of phytoplankton biomass in a water body; in coastal waters, it can reflect changes in river nutrient loads. In the Great Barrier Reef Water Quality Guidelines, chlorophyll-a is used as a proxy for dissolved inorganic nitrogen (Great Barrier Reef Marine Park Authority, 2010), generally considered the most readily available nitrogen form for uptake by marine plants such as phytoplankton.
+
+
+
+
+
+

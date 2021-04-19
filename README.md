@@ -10,18 +10,15 @@ paper by Lloyd-Jones et al. (2021).
 
 ## Installation
 
-You can pull this repo and run the app by typing in the following at the
+You run the app by typing in the following into the
 command line within R:
 
-    library(shiny)
+```
+#install.packages("devtools")
+devtools::install_github("pkuhnert/MMPdesignE")
 
-    source("includeRmd.r")
-    source("ui.r")
-    source("server.r")
-
-    app <- shinyApp(ui = ui, server = server)
-    runApp(app)
-
+MMPde::runApp()
+```
 ## Contact
 
 For all enquires regarding this Shiny App, please contact: Petra Kuhnert

@@ -1,0 +1,12 @@
+---
+title: "References"
+output: html_document
+---
+
+## Key References
+
+
+Lloyd-Jones, L., Kuhnert, P.M., Lawrence, E., Lewis, S., Waterhouse, J. et al. (2021) Sampling re-design increases power to detect change in the Great Barrier Reef’s inshore water quality.
+
+Kuhnert, P.M., Liu, Y., Henderson, B., Dambacher, J., Lawrence, E. and Kroon, F. (2015) Review of the Marine Monitoring Program (MMP), CSIRO Report, [Online Version.](https://elibrary.gbrmpa.gov.au/jspui/handle/11017/2929) 
+
