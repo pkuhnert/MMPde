@@ -17,7 +17,7 @@ command line within R:
 #install.packages("devtools")
 devtools::install_github("pkuhnert/MMPdesignE")
 
-MMPde::runApp()
+MMPde::runShiny()
 ```
 ## Contact
 
