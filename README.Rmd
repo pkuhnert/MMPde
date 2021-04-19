@@ -1,9 +1,9 @@
+---
+title: "MMPde"
+output: html_document
+---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# MMPdesignE
-
-## Marine Monitoring Program Design Evaluation
+## Marine Monitoring Program Design Evaluation 
 
 This application provides interactive supplementary material to the
 paper by Lloyd-Jones et al. (2021).

@@ -4,7 +4,9 @@ Title: App
 Version: 0.0.1
 Author: Petra Kuhnert
 Maintainer: Petra Kuhnert <Petra.Kuhnert@data61.csiro.au>
-Description: App
+Description: Supporting app to paper by Lloyd-Jones et al. (2021) that performs a
+  power analysis to determine whether the change in design as recommended in Kuhnert et al. (2015)
+  resulted in increased power to detect change for key constituents in the MMP.
 Encoding: UTF-8
 Date: 2021-04-01
 Authors@R: c(
