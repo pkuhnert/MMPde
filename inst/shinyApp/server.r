@@ -256,8 +256,6 @@ server <- function(input, output){
                                       else
                                         fig_nm <- ""
                                       
-                                      print(fig_nm)
-                                      
                                       if(input$ind_plot_type1 == "Time to Exceedance"){
                                         tags$div(
                                           tags$img(src=paste0("pics/", fig_nm), contentType = 'image/png', height = 600),
