@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/pkuhnert/MMPdesignE/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPde/actions)
+[![R-CMD-check](https://github.com/pkuhnert/MMPde/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPde/actions)
 <!-- badges: end -->
 
 `MMPde` pkgdown site: <https://pkuhnert.github.io/MMPde/>.
