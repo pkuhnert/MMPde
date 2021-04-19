@@ -5,10 +5,10 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/pkuhnert/MMPdesignE/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPdesignE/actions)
+[![R-CMD-check](https://github.com/pkuhnert/MMPdesignE/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPde/actions)
 <!-- badges: end -->
 
-`MMPde` pkgdown site with vignette: <https://pkuhnert.github.io/MMPde/>.
+`MMPde` pkgdown site: <https://pkuhnert.github.io/MMPde/>.
 
 ## About the MMPde Package
 
