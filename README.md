@@ -8,7 +8,7 @@
 [![R-CMD-check](https://github.com/pkuhnert/MMPde/workflows/R-CMD-check/badge.svg)](https://github.com/pkuhnert/MMPde/actions)
 <!-- badges: end -->
 
-`MMPde` pkgdown site: <https://pkuhnert.github.io/MMPde/>.
+`MMPde` pkgdown site: <https://pkuhnert.github.io/MMPde/>
 
 ## About the MMPde Package
 
