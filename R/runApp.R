@@ -4,5 +4,6 @@
 #'
 #'@export
 runShiny <- function() {
+  library(shiny)
   runApp(system.file("shinyApp", package="MMPde"))
 }
