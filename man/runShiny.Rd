@@ -7,5 +7,5 @@
 runShiny()
 }
 \description{
-Run shiny app
+Function to run the shiny app
 }
