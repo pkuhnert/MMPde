@@ -16,6 +16,11 @@ determine whether the change in design as recommended in Kuhnert et
 al. (2015) resulted in increased power to detect change for key
 constituents in the MMP.
 
+## Shiny App
+
+This app has been deployed to the following site:
+<https://shiny.csiro.au/MMPdesignE/>
+
 ## Installation
 
 Follow the instructions below to install the `MMPde` package and access
