@@ -5,6 +5,8 @@ library(DT)
 
 # Input widgets
 ui  <- fluidPage(
+  
+  tags$head(includeHTML(("google-analytics.html"))),
 
   # Header
     headerPanel("Marine Monitoring Program - Evaluation of Design Changes"),
